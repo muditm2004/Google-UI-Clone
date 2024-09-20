@@ -1,0 +1,270 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #202124;
+    overflow: hidden;
+}
+
+header{
+    font-size: 0.89em;
+    font-weight: 400;
+    font-family: 'Arial';
+    text-decoration: none;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+header a{
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.headerLeft{
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+    display: inline-flex;
+    align-items: center;
+    /* margin-left: em; */
+}
+.headerRight{
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    float: right;
+    margin-right: 0.5em;
+}
+
+.headerRight svg{
+    margin-left: 1em;
+    fill: white;
+}
+
+.headerRight>a>button{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em 1.7em;
+    border-radius: 50em;
+    border: 0px;
+    background-color: #C2E7FF;
+    cursor: pointer;
+}
+.image {
+    min-height:23.6%;
+    min-width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+
+}
+
+.image > img{
+    /* height: 85px; */
+    width: 17em;
+    aspect-ratio: 100%;
+}
+
+.searchdiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:4.3%;
+    width: 100vw;
+    height: 7%;
+}
+
+.searchBar{
+    /* position: absolute; */
+    width: 46%;
+    height: 102%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #49494b;
+    justify-content: space-around;
+}
+
+.searchBar:hover{
+    background-color: #303134;
+    border: 0px;
+    box-shadow: 0px 0 4px 1px rgba(16, 16, 16, 0.317);
+}
+
+
+label>i{
+    margin: 1em 0em 1em 0.5em;
+    color: #9AA0A6;
+    font-size: 0.8em;
+    
+}
+
+.icons{
+    height: 1.5em;
+    margin: 0.2em;
+    cursor: pointer;
+}
+
+.searchInput{
+    width:70%;
+    height: 100%;
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    caret-color: white;
+    color: white;
+    font-size: 1em;
+}
+
+.search{
+
+    position: relative;
+    top: 4em;
+    display: flex;
+    justify-content: center;
+    height: 2em;
+}
+
+.searchBtn{
+    height: 105%;
+    width: 10%;
+    margin-left: 1em;
+    background-color: #303134;
+    border:0px;
+    color: white;
+    border-radius: 0.2em;
+    cursor: pointer;
+    font-size: small;
+    /* padding: 1em 1em; */
+}
+
+.searchBtn:hover{
+    border: 0.5px solid #5F6368;
+}
+
+
+.BottomTextContainer{
+    /* background-color: red; */
+    position: relative;
+    top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.BottomText{
+    /* background-color: yellow; */
+    display: flex;
+    margin:0px;
+    font-family: 'Arial';
+    color: white;
+}
+.textHead{
+    color: #B4B4B4;
+    font-size: small;
+}
+
+.links{
+    font-size: small;
+    color: #99C3FF;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 1em;
+}
+
+li{
+    margin-left: 1em;
+}
+
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a{
+    color: #99C3FF;
+    text-decoration: none;
+}
+
+.imagesText{
+    /* background-color: red; */
+width: 5%;
+    color: #3C87F6;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    top: 1em;
+    left: -3.5em;
+    font-family: 'Arial';
+    font-size: 200;
+}
+
+#second{
+    margin: 1em 1em 1em 0.5em;
+    color: #8AB4F8;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #171717;
+    font-size: 13px;
+    font-family: 'Arial';
+    color: white;
+}
+
+.footerTop{
+    display: flex;
+    align-items: center;
+    height: 2.5em;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.507)  ;
+    /* background-color: red; */
+    padding:0.5em 2em ;
+}
+
+.footerBottom{
+    height: 3.5em;
+    /* background-color: rgb(14, 121, 9); */
+    width: 100%;
+}
+
+.footerBottomRight{
+    /* padding:0.5em 2em ; */
+    height: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    float: right;
+    margin-right: 3em;
+    /* background-color: blue; */
+}
+
+.footerBottomLeft{
+    /* padding:0.5em 2em ; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    /* position: relative; */
+    align-items: center;
+    float: left;
+    justify-content: space-between;
+}
+
+/* .footerBottomLeft>li{
+    margin-left: 2.5em;
+} */
