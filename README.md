@@ -1,4 +1,5 @@
 # Google-UI-Clone
-This is a Google's dark themed, logged-out search UI clone made up entirely using HTML, CSS, JS. 
+This is Google's dark-themed, logged-out search UI clone made up entirely using HTML, CSS, and JS. 
 
-For Searching anything, just ype normally and hit "Enter". It will perform the google search.
+To search for anything, type normally and hit "Enter". It will perform a Google search.
+Since I created it just for fun and curiosity, the webpage's responsiveness has not been taken care of right now. Maybe in the future🙃
